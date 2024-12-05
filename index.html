@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<title>
+  Christmas Gift
+</title>
+
+<!-- Stylesheets -->
+<link rel="stylesheet" href="./css/main.css">
+
+</head>
+<body>
+
+<body><!-- Modal -->
+	<script src="script.js"></script>
+<div class="modal fade" id="gift-backdrop" data-bs-backdrop="static"
+data-bs-keyboard="false" tabindex="-1" aria-labelledby="giftModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" style="margin-top: 14rem;">
+	<div class="modal-content">
+		<div class="modal-header">
+			<h5 class="modal-title" id="giftModalLabel">Сюрприииз!</h5>
+			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body" style="font-size: 17px;">
+			<p  style="font-size: 17px;">Для того аби дізнатись, що то за подаруночок треба натиснути на кнопку!</p>
+			<p>:)</p>
+		</div>
+		<div class="modal-footer">
+			<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Закрити</button>
+			<button type="button" class="btn btn-primary"  onclick="openPDF()">Отримати подаруночок</button>
+		</div>
+	</div>
+  </div>
+</div>
+<main class="d-flex justify-content-center align-items-center flex-column">
+	<img class="icon-santa" src="./img/icons/santa.png" alt="Santa">
+	<img class="icon-star" src="./img/icons/stars.png" alt="Stars">
+	<p>Топ топ топ ...</p>
+	<h1 class="main-text color-dark-spring-green">От і миколайчик прийшов!</h1>
+	<a role="button" class="gift-btn btn" data-bs-toggle="modal" data-bs-target="#gift-backdrop" href="#gift-backdrop"><img class="icon-gift" src="./img/icons/gift.png" alt="Gift"></a>
+	<p class="click-me-text color-pomana-green font-xs" style="font-size: 25px;">Жмииии сюди!</p>
+</main>
+
+</body>
+
+<script defer src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script defer src="./js/app.js" charset="utf-8"></script>
+
+</body>
+</html>
